@@ -1,0 +1,18 @@
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\bin\Debug\Taller CESF.exe.config
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\bin\Debug\Taller CESF.exe
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\bin\Debug\Taller CESF.pdb
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\bin\Debug\Taller CESF.xml
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.Resources.resources
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller CESF.vbproj.GenerateResource.Cache
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller CESF.exe
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller CESF.xml
+c:\users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller CESF.pdb
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionCurso.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.MenuPrincipal.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller CESF.vbprojResolveAssemblyReference.cache
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionAsignatura.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionApoderado.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionAnotacion.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionAlumno.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionComunicacion.resources
+C:\Users\rodrigo\documents\visual studio 2013\Projects\Taller CESF\Taller CESF\obj\Debug\Taller_CESF.GestionEvaluacion.resources

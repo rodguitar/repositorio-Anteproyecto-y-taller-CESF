@@ -1,0 +1,40 @@
+30.09.2013.
+
+Coni, para ver transmision y recepcion xbee. tesis de Jaime.
+Para ver otros dispositivos, sensores para el robot, tesis de CArlos.
+A leer.
+saludos
+jm
+
+17.10.2013.  
+
+Coni, debemos armar el proyecto de tesis para pedir aprobacion en la
+escuela y ademas, presentarselo a otro colega para que actue de co_patrociante
+(pienso en Maria de la Maza) que nos apoye.
+
+por ello subi el proyecto de Felipe Meza, mira la forma y
+ponte a trabajar en un documento similar.
+
+Recalco que la idea es :
+
+Desarrollar una serie de experiencias sobre android, usando 
+toda la tecnologia que dispones los smarphone.
+
+titulo "Smarphone: Tecnologias disponibles y sus aplicaciones"
+
+desarrollar siete experiencias segun uso de tecnologias:
+
+1.-  INput /output
+2.-  mas Acelerometro
+3.-  mas microfono
+4.-  mas  GPS. smarcity
+5.-  mas base de datos Sqlite
+6.-  mas IOIO  i/o  externo.
+
+a trabajar.
+
+23.10.2013
+
+Empecé a trabajr en el anteproyecto. Hoy espero tener el resumen por lo menos.
+
+//Estaba pensando que se podría agregar el nivel de brillo y quizás hacer algo interactivo (con figuras que representen la oscuridad y la luz, quizás una luna o un sol o no sé xD quizás un tipo juego donde según el brillo un monito esté despierto o durmiendo, o si está muy oscuro tenga miedo... no sé

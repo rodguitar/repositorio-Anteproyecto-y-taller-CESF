@@ -1,0 +1,82 @@
+﻿Version=3.82
+IconFile=
+NumberOfModules=1
+Module1=DBApp
+Build1=Default,b4a.example
+DoNotOverwriteManifest=False
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~
+NumberOfFiles=1
+File1=Layout1.bal
+NumberOfLibraries=2
+Library1=core
+Library2=sql
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+
+	Dim edtBuscarId As EditText
+	Dim edtRut As EditText
+	Dim edtDireccion As EditText
+	Dim edtNombre As EditText
+	Dim lstTodos As ListView
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	Activity.LoadLayout("Layout1")
+	
+	If FirstTime Then
+		DBApp.InicializaDB
+	End If
+End Sub
+
+Sub lstTodos_ItemClick (Position As Int, Value As Object)
+	Msgbox(Value,"Presionaste")
+End Sub
+Sub buscarTodos_Click
+	Dim lista As List
+	Dim Cols() As String
+	lstTodos.clear
+	lista = DBApp.buscaTodosUsuarios(20)
+	For f = 0 To lista.Size-1
+		Cols = lista.Get(f)
+		'lstTodos.AddTwoLines2(Cols(1)), Cols(2), Cols(0))
+				lstTodos.AddSingleLine(Cols(1) & "-" & Cols(2) & "-" & Cols(0))
+	Next
+End Sub
+Sub btnInsertar_Click
+	DBApp.insertaUsuario(edtNombre.Text,edtRut.text,edtDireccion.Text)
+		edtRut.Text = ""
+	edtNombre.Text = ""
+	edtDireccion.Text = ""
+End Sub
+Sub btnBuscarPrimero_Click
+	edtNombre.Text = DBApp.buscaUnUsuario1
+End Sub
+Sub btnBuscar1_Click
+	edtNombre.Text = DBApp.buscaUnUsuario2(0)
+End Sub
+Sub btnContar_Click
+	Msgbox(DBApp.countUsuarios,"Cantidad de usuarios")
+End Sub
